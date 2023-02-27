@@ -1,0 +1,43 @@
+/* Main styles */
+.background{
+    height: 100vh ;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.side {
+    background-color: bisque;
+    z-index: -2;
+}
+
+.main {
+    background-color:white;
+    padding: 0px;
+}
+
+/* Shagow style */
+.shadowed {
+    position: relative;
+  }
+  
+  .shadowed::before,
+  .shadowed::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  .shadowed::before {
+    left: 0;
+    box-shadow: -10px 0 15px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .shadowed::after {
+    right: 0;
+    box-shadow: 10px 0 15px -5px rgba(0, 0, 0, 0.5);
+  }
+
