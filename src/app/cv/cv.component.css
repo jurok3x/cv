@@ -63,6 +63,7 @@ main {
 
 /* Section styles */
 section {
+    padding: 10px;
     margin-bottom: 2rem;
 }
 
@@ -161,4 +162,12 @@ section ul li strong {
   
   .tab-content .tab-panel.active {
     display: block;
+  }
+
+  .cv {
+    padding: 10px;
+  }
+
+  .card {
+    margin-bottom: 10px;
   }
