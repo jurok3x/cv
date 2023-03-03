@@ -167,3 +167,7 @@ section ul li strong {
   .cv {
     padding: 10px;
   }
+
+  .card {
+    margin-bottom: 10px;
+  }
