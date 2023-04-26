@@ -1,0 +1,32 @@
+div {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+span {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.big {
+    width: 400px;
+    height: 80px;
+}
+
+.small {
+    width: 300px;
+}
+
+.text-big {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-small {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}

@@ -8,19 +8,18 @@
 /* Global styles */
 body {
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
     line-height: 1.5;
     color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -124,50 +123,6 @@ section ul li strong {
     background-color: #148f77;
 }
 
-/* Tubs styles */
-.tabs {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .tab-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  .tab-nav li {
-    margin-right: 1rem;
-  }
-  
-  .tab-nav a {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    color: #333;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-  
-  .tab-nav a:hover,
-  .tab-nav a.active {
-    background-color: #1abc9c;
-    color: #fff;
-  }
-  
-  .tab-content .tab-panel {
-    display: none;
-  }
-  
-  .tab-content .tab-panel.active {
-    display: block;
-  }
-
-  .cv {
-    padding: 10px;
-  }
-
-.card {
-    margin-bottom: 10px;
-  }
+.side {
+    background-color: rgb(246, 249, 237);
+}

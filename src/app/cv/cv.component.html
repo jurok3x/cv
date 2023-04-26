@@ -1,21 +1,17 @@
-<div class="cv card">
-    <section>
+<div class="row">
+    <div class="col-4 side">
+        <app-image></app-image>
+        <h2>Summary</h2>
         <app-summary></app-summary>
-    </section>
-    <mat-divider></mat-divider>
-    <section>
-        <app-experience></app-experience>
-    </section>
-    <mat-divider></mat-divider>
-    <section>
-        <app-education></app-education>
-    </section>
-    <mat-divider></mat-divider>
-    <section>
-        <app-skills></app-skills>                        
-    </section>
-    <mat-divider></mat-divider>
-    <section>
-        <app-contact></app-contact>
-    </section>
+        <h3>Languages</h3>
+        <mat-list class="inline">
+            <mat-list-item>Ukrainian (native)</mat-list-item>
+            <mat-list-item>English (upper-intermediate)</mat-list-item>
+            <mat-list-item>German (DSD B2/C1)</mat-list-item>
+        </mat-list>
+    </div>
+    <div class="col-8">
+        <app-content></app-content>
+    </div>
+
 </div>

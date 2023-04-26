@@ -16,6 +16,8 @@ import { EducationComponent } from './education/education.component';
 import { SummaryComponent } from './summary/summary.component';
 import {MatDividerModule} from '@angular/material/divider';
 import { ImageComponent } from './image/image.component';
+import { LabelComponent } from './label/label.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ImageComponent } from './image/image.component';
     ContactComponent,
     EducationComponent,
     SummaryComponent,
-    ImageComponent
+    ImageComponent,
+    LabelComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
