@@ -1,6 +1,6 @@
 /* Profile image */
 .profile-image {
-    width: 334px;
-    height: 334px;
+    max-width: 100%;
+    height: auto;
     margin-left: -12px;
 }
