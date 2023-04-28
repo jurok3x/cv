@@ -128,3 +128,7 @@ section ul li strong {
 .side {
     background-color: rgb(246, 249, 237);
 }
+
+li {
+    margin-bottom: 10px;
+}
