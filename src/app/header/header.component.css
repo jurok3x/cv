@@ -7,15 +7,7 @@ header {
     margin-left: 0px;
     margin-top: 10px;
 }
-/* Profile image */
-.profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    border-color: #fff;
-    border-width: 5px;
-    border-style: solid;
-}
+
 
 .title {
     font-family: "Montserrat", sans-serif;
